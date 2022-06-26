@@ -1,0 +1,62 @@
+@import url(./reset.css);
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.login__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 3.125rem;
+}
+
+.login__header img {
+  width: 6.25rem;
+}
+
+.login__header h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.login__input {
+  border: 0.125rem solid #333;
+  border-radius: 0.5rem;
+  color: #333;
+  font-size: 1rem;
+  padding: 1.06rem; /* 15px */
+
+  margin-bottom: 1.06rem; /* 15px */
+
+  outline: none; /* tira o efeito do contorno do campo */
+
+  width: 100%; /* 100% da tela */
+  max-width: 18.75rem; /* porém não ultrapassa os 300px da tela */
+}
+
+.login__buttton {
+  background-color: #ee665c;
+  padding: 1.06rem; /* 15px */
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  width: 100%; /* 100% da tela */
+  max-width: 18.75rem; /* porém não ultrapassa os 300px da tela */
+}
+
+.login__buttton:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
